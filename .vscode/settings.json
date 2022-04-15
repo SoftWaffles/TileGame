@@ -1,0 +1,8 @@
+{
+    "java.project.sourcePaths": [
+        "TileGame/src",
+        "TileGame/res",
+        "TileGame/out/production/TileGame",
+        "TileGame/.idea"
+    ]
+}
