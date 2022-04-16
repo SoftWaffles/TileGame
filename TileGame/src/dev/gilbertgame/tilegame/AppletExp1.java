@@ -1,8 +1,8 @@
 package dev.gilbertgame.tilegame;
-import java.applet.*;
+import javax.swing.JApplet;
 import java.awt.*;
 
-public class AppletExp1 extends Applet {
+public class AppletExp1 extends JApplet {
     public void init()
     {
         Game game = new Game("Gilbert's Slime Showdown! - Made by Kevin", 640, 640);
