@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="" href="">
+    <information>
+        <title>TileGame</title>
+        <vendor>Kevin Mathew</vendor>
+    </information>
+    <resources>
+        <!-- Application Resources -->
+        <j2se version="1.7+"
+            href="http://java.sun.com/products/autodl/j2se" />
+        <jar href="TileGame.jar" main="true" />
+
+    </resources>
+    <applet-desc 
+         name="Gilbert Game Applet"
+         main-class="components.GameApplett"
+         width="640"
+         height="640">
+     </applet-desc>
+     <update check="background"/>
+</jnlp>    
